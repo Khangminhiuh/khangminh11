@@ -460,7 +460,6 @@ display: flex;
 }
 .rows-green {
   width: 100%;
-  max-width: 1240px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -555,13 +554,14 @@ display: flex;
   gap: 80px;
   width: 100%;
   align-items: center;
-   max-width: 1280px;
+    max-width: 1280px;
 }
 
 .team-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+    width: 100%;
 }
 .team-grid .grid,
 .team-grid .grid-63 {
@@ -652,7 +652,6 @@ display: flex;
   gap: 80px;
   width: 100%;
   align-items: center;
-  max-width: 1240px;
 }
 .testi-box {
     width: 100%;
@@ -746,7 +745,8 @@ display: flex;
     display: flex;
     flex-direction: column;
     gap: 80px;
-    max-width: 1240px;
+    align-items: center;
+    justify-content: center;
 }
 .contact p{
   max-width: 323px;
@@ -831,8 +831,7 @@ display: flex;
     line-height: 28px;
     color: #000000;
 }
-.form-field input,
-.form-field textarea {
+.form-field input, .form-field textarea {
     box-sizing: border-box;
     width: 100%;
     background-color: #ffffff;
@@ -1045,6 +1044,42 @@ display: flex;
         width: 100%;
     }
 }
+@media (max-width: 1080px) {
+    header {
+        gap: 40px;
+    }
+    .menu {
+        gap: 32px;
+    }
+    .hero {
+        gap: 40px;
+    }
+    .card-grey, .card-green, .card-dark {
+        flex-basis: 480px;
+    }
+    .service-text {
+        max-width: 460px;
+    }
+    .service-img {
+        width: 440px;
+        right: 40px;
+    }
+    .green-top, .rows-white {
+        gap: 0px;
+        justify-content: space-between;
+    }
+    .footer-top {
+        gap: 40px;
+    }
+    .footer-menu {
+        gap: 32px;
+    }
+    .footer-mid {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
 @media (max-width: 1024px) {
     body {
         padding-left: 20px;
