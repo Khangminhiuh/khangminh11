@@ -1216,6 +1216,14 @@ display: flex;
         width: 600px;
         max-width: 100%;
     }
+    .text-on-img {
+        top: 28px;
+        left: 28px;
+        right: 28px;
+        font-size: 15px;
+        line-height: 22px;
+}
+
     .testi-box {
         gap: 60px;
         padding-top: 60px;
@@ -1353,10 +1361,7 @@ display: flex;
     .card-grey, .card-green, .card-dark {
         flex-direction: column;
         gap: 24px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding: 30px;
     }
     .service-art {
         justify-content: center;
@@ -1366,10 +1371,7 @@ display: flex;
         padding-right: 20px;
     }
     .case-cta {
-        padding-top: 30px;
-        padding-bottom: 30px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 30px 20px;
         gap: 30px;
     }
     .top-text h2, .white-text h2 {
@@ -1410,14 +1412,11 @@ display: flex;
         width: 100%;
     }
     .text-on-img {
-        top: 28px;
-        left: 28px;
-        right: 28px;
-        font-size: 16px;
-        line-height: 24px;
-    }
-    .maker {
-        margin-left: 40px;
+        top: 18px;
+        left: 20px;
+        right: 20px;
+        font-size: 11px;
+        line-height: 17px;
     }
     .testi-nav {
         gap: 30px;
